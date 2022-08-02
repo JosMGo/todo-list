@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./styles.css">
+    <!-- Icons font awesome -->
+    <script src="https://kit.fontawesome.com/7cb649b3cd.js" crossorigin="anonymous"></script>
+    <title>To do list</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>To do list</header>
+        <div class="inputField">
+            <input type="text" placeholder="Agrega una nueva Tarea">
+            <button><img src="./icons/add.png" alt="icon"></button>
+        </div>
+        <ul class="todoList">
+            <!-- Data comes from local storage -->
+        </ul>
+        <div class="footer">
+        <span>you have <span class="pendingNumb"></span> pending task</span>
+        <button>Clear All</button>
+        </div>
+    </div>
+    
+
+
+<script src="./code.js"></script>
+</body>
+</html>
